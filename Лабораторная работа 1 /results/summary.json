@@ -1,0 +1,21 @@
+{
+  "variant": 11,
+  "seed": 10101,
+  "status": "optimal",
+  "status_meaning": "доказан глобальный оптимум: допустимость и двойственная допустимость выполнены",
+  "objective_rub": 7075174.040740462,
+  "objective_numpy_rub": 7075174.040740462,
+  "invoice_rub": 7330309.324434502,
+  "milp_rub": 7311783.680426999,
+  "milp_verified": true,
+  "simplex_iterations": 39,
+  "verification_passed": true,
+  "n_vars": 48,
+  "n_rows": 67,
+  "active_rows": 45,
+  "active_with_zero_dual": 6,
+  "zero_vars": 12,
+  "top_capacity_supplier": "S4",
+  "python": "3.12.15",
+  "highs": "1.15.1"
+}
