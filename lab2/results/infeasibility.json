@@ -1,0 +1,28 @@
+{
+  "demand": {
+    "conflict_ports": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "total_supply_teu": 570.0,
+    "total_demand_teu": 612.0,
+    "lease_teu": 42.0,
+    "lease_by_port": {
+      "P1": 42.0
+    },
+    "cost_with_leasing_usd": 99154.0,
+    "repositioning_cost_usd": 73954.0,
+    "potentials_with_leasing": {
+      "P1": 600.0,
+      "P2": 540.0,
+      "P3": 245.0,
+      "P4": 487.0,
+      "P5": 491.0,
+      "P6": 367.0
+    }
+  }
+}

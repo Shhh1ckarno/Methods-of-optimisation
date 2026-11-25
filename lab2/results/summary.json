@@ -1,0 +1,40 @@
+{
+  "variant": 11,
+  "seed": 10101,
+  "status": "optimal",
+  "objective_usd": 58160.0,
+  "objective_numpy_usd": 58160.0,
+  "verification_passed": true,
+  "simplex_iterations": 7,
+  "busiest_arc": "P6-P5",
+  "greedy": {
+    "greedy_cost_usd": 58160.0,
+    "lp_cost_usd": 58160.0,
+    "gap_usd": 0.0,
+    "gap_pct": 0.0,
+    "greedy_unmet_teu": 0.0,
+    "greedy_feasible": true,
+    "benchmark": {
+      "networks": 200,
+      "lp_feasible": 124,
+      "greedy_stuck": 0,
+      "optimal_share": 0.3387096774193548,
+      "mean_gap_pct": 4.576151422426301,
+      "median_gap_pct": 1.8517409492926462,
+      "p90_gap_pct": 12.51724381730022,
+      "max_gap_pct": 34.24951085437436
+    }
+  },
+  "milp": {
+    "lp_relaxation_usd": 58160.0,
+    "milp_usd": 63550.0,
+    "gap_usd": 5390.0,
+    "gap_pct": 9.267537826685013,
+    "lp_total_sailings": 12.9,
+    "milp_total_sailings": 15.0,
+    "milp_status": "optimal"
+  },
+  "python": "3.12.15",
+  "highs": "1.16.0",
+  "networkx": "3.7"
+}

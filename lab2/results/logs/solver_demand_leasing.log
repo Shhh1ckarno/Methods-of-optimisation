@@ -1,0 +1,24 @@
+LP has 6 rows; 24 cols; 42 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 1e+00]
+  Cost    [5e+01, 6e+02]
+  Bound   [1e+02, 1e+07]
+  RHS     [1e+02, 3e+02]
+WARNING: Problem has some excessively large bounds on variables
+WARNING:    Consider scaling the    bounds by 1e-1, or setting the user_bound_scale option to -4
+WARNING: Problem is badly scaled, which may compromise the speed, accuracy and reliability of solvers in HiGHS
+Presolving model
+6 rows, 24 cols, 42 nonzeros 0s
+6 rows, 24 cols, 42 nonzeros 0s
+Presolve reductions: rows 6(-0); columns 24(-0); nonzeros 42(-0) - Not reduced
+Problem not reduced by presolve: solving the LP
+Choosing to use dual simplex solver
+Using dual simplex solver
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Pr: 3(612) 0.0s
+          8     9.9154000000e+04 Pr: 0(0) 0.0s
+Model status        : Optimal
+Simplex   iterations: 8
+Objective value     :  9.9154000000e+04
+P-D objective error :  0.0000000000e+00
+HiGHS run time      :          0.00

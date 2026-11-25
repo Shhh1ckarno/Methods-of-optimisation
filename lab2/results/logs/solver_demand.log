@@ -1,0 +1,21 @@
+LP has 6 rows; 18 cols; 36 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 1e+00]
+  Cost    [5e+01, 1e+02]
+  Bound   [1e+02, 3e+02]
+  RHS     [1e+02, 3e+02]
+Presolving model
+6 rows, 18 cols, 36 nonzeros 0s
+6 rows, 18 cols, 36 nonzeros 0s
+Presolve reductions: rows 6(-0); columns 18(-0); nonzeros 36(-0) - Not reduced
+Problem not reduced by presolve: solving the LP
+Choosing to use dual simplex solver
+Using dual simplex solver
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Pr: 3(612) 0.0s
+          7     8.8864270436e+04 0.0s
+Model status        : Infeasible
+Simplex   iterations: 7
+Objective value     :  8.8864000000e+04
+P-D objective error :  1.5216183871e-06
+HiGHS run time      :          0.00
