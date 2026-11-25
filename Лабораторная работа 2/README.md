@@ -36,7 +36,7 @@ python3.12 -m venv .venv
 | `src/plots.py` | схемы сети и графики |
 | `data/` | данные варианта |
 | `results/` | результаты |
-| `REPORT.prex`, `REPORT.pdf` | отчет |
+| `REPORT.pdf` | отчет |
 
 ## Результаты
 
@@ -52,7 +52,6 @@ python3.12 -m venv .venv
 | `greedy_flows.csv`, `greedy_steps.csv` | жадная эвристика на варианте |
 | `greedy_benchmark.csv` | эвристика против ЛП на 200 случайных сетях |
 | `milp_sailings.csv` | дополнительное задание: неделимые рейсы |
-| `figures/` | схемы сети и графики |
 
 ## Генерация данных
 
